@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions</title>
+</head>
+<body>
+    <!-- Addition -->
+    <h1>JavaScript Function on Addition</h1>
+    <p>Call a function which performs a calculation and returns the result</p>
+    <p id="addition"></p>
+    <script>
+        let a = myaddition(8, 4);
+        document.getElementById("addition").innerHTML= a;
+        function myaddition(b, c){
+            return b + c;
+        }
+    </script>
+    
+    <!-- Subtraction -->
+    <h1>JavaScript Function on Subraction</h1>
+    <p>Call a function which performs a calculation and returns the result</p>
+    <p id="subtraction"></p>
+    <script>
+        let b = mysubtraction(8, 4);
+        document.getElementById("subtraction").innerHTML= b;
+        function mysubtraction(d, e){
+            return d - e;
+        }
+    </script>
+
+    <!-- Multiplication -->
+    <h1>JavaScript Function on Multiplication</h1>
+    <p>Call a function which performs a calculation and returns the result</p>
+    <p id="multiplication"></p>
+    <script>
+        let c = mymultiplication(8, 4);
+        document.getElementById("multiplication").innerHTML= c;
+        function mymultiplication(d, e){
+            return d * e;
+        }
+    </script>
+
+    <!-- Division -->
+    <h1>JavaScript Function on Division</h1>
+    <p>Call a function which performs a calculation and returns the result</p>
+    <p id="division"></p>
+    <script>
+        let d = mydivision(8, 4);
+        document.getElementById("division").innerHTML= d;
+        function mydivision(d, e){
+            return d / e;
+        }
+    </script>
+
+    <!-- Modulus -->
+    <h1>JavaScript Function on Modulus</h1>
+    <p>Call a function which performs a calculation and returns the result</p>
+    <p id="modulus"></p>
+    <script>
+        let e = mymodulus(8, 4);
+        document.getElementById("modulus").innerHTML= e;
+        function mymodulus(d, e){
+            return d % e;
+        }
+    </script>
+
+    <!-- Boolean -->
+    <h1>JavaScript Function on Boolean</h1>
+    <p>Call a function which performs a calculation and returns the result</p>
+    <p id="boolean"></p>
+    <script>
+        let f = myboolean(8, 4);
+        document.getElementById("boolean").innerHTML= f;
+        function myboolean(d, e){
+            return d > e;
+        }
+    </script>
+
+    <!-- Variable -->
+    <h1>JavaScript Variable</h1>
+    <p>Strings are written with quotes</p>
+    <p id="quote"></p>
+    <script>
+        let firstName = "Eniola";
+        let lastName = "Adedoyin";
+        document.getElementById("quote").innerHTML = lastName + " " + firstName;
+    </script>
+</html>

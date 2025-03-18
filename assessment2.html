@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="Increment"></p>
+    <p id="Decrement"></p>
+    <button type="button" onclick="handleIncrement()">Increment</button>
+    <button type="button" onclick="handleDecrement()">Decrement</button>
+    <script>
+        let x = 3;
+        let y  = 4;
+        let z = x + y;
+        document.getElementById("Increment").innerHTML = z;
+
+        function handleIncrement(){
+            let currentvalue = parseInt (document.getElementById("Increment").innerHTML);
+           document.getElementById("Increment").innerHTML = currentvalue+1;
+
+           document.getElementById('Increment').style.fontSize = '48px';
+        };
+        function handleDecrement(){
+            let currentvalue = parseInt (document.getElementById("Increment").innerHTML);
+            document.getElementById("Increment").innerHTML = currentvalue-1;
+
+            document.getElementById('Increment').style.fontSize = '48px';
+        };
+    </script>
+</body>
+</html>
